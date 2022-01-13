@@ -1,5 +1,5 @@
 window.onload = function() {
-  base_preguntas = readText("dificil.json")
+  base_preguntas = readText("assets/json/dificil.json")
   interprete_bp = JSON.parse(base_preguntas)
   escogerPreguntaAleatoria()
 }
